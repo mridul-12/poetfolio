@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "blogName": "Mastering JavaScript",
+    "image": "https://example.com/images/javascript-mastery.jpg",
+    "description": "Deep dive into JavaScript, exploring its advanced features and best practices for effective coding.",
+    "date": "2024-09-12"
+  },
+  {
+    "id": 2,
+    "blogName": "A Beginner’s Guide to HTML & CSS",
+    "image": "https://example.com/images/html-css-guide.jpg",
+    "description": "An introductory guide to HTML and CSS, covering the fundamentals for creating stunning web pages.",
+    "date": "2024-08-30"
+  },
+  {
+    "id": 3,
+    "blogName": "Exploring Python for Data Science",
+    "image": "https://example.com/images/python-data-science.jpg",
+    "description": "Learn how Python is used in data science, including key libraries and data analysis techniques.",
+    "date": "2024-08-18"
+  },
+  {
+    "id": 4,
+    "blogName": "Introduction to React",
+    "image": "https://example.com/images/react-intro.jpg",
+    "description": "An overview of React, a popular JavaScript library for building user interfaces and single-page applications.",
+    "date": "2024-07-25"
+  },
+  {
+    "id": 5,
+    "blogName": "Effective Debugging Strategies",
+    "image": "https://example.com/images/debugging-strategies.jpg",
+    "description": "Strategies and tools for effective debugging to help you resolve issues and improve code quality.",
+    "date": "2024-07-10"
+  },
+  {
+    "id": 6,
+    "blogName": "Building RESTful APIs with Node.js",
+    "image": "https://example.com/images/restful-apis-nodejs.jpg",
+    "description": "A guide to creating RESTful APIs using Node.js, including setup, routing, and handling requests.",
+    "date": "2024-06-20"
+  }
+]
