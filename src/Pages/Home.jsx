@@ -26,7 +26,7 @@ const Home = () => {
           <Banner />
           {/* about  */}
           <AboutHome />
-          {/* education */}
+       
           {/* Blogs */}
          
           {/* contact */}
