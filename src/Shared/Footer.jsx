@@ -47,13 +47,13 @@ const Footer = () => {
       <nav>
         <div className="grid grid-flow-col gap-4">
           <a
-            href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGonzb4vjmpzwAAAZCGNetYaTBkmPmP3jwbyu15qSZsZVSa01c5lbIg6a22QjHL8Mf9sDcVq7rvWtCOZsF0One3ecf7WwC9NYgSj07FJv4AXXmn3LI444T7zHLq47D4Huetwe4=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmd-nayeem-miah-734719307"
+            href="https://www.instagram.com/mridh1561/?igsh=MTRpaWlnbjJqMHBhcA%3D%3D"
             target="blank"
           >
             <FaInstagram className="text-4xl text-blue-600 bg-instagram-gradient"></FaInstagram>
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=100042968569904"
+            href="https://www.facebook.com/people/Mri-Du-L/100081711587660/?mibextid=ZbWKwL"
             target="blank"
           >
             <FaFacebook className="text-4xl text-blue-600"></FaFacebook>

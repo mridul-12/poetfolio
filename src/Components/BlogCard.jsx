@@ -16,7 +16,7 @@ const BlogCard = ({ blog }) => {
             <h2 className="">date:{blog.date}</h2>
           <p>{blog.description}</p>
           <div className="card-actions">
-            <Link to={`/blog/${blog.id}`} className="bg-gradient-to-r flex  items-center gap-1 from-purple-500 via-pink-500 to-red-500 text-white font-bold py-2 px-4 rounded" >detsils</Link>
+            <Link to={`/blog/${blog.id}`} className="bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-red-500 text-white font-bold py-2 px-4 rounded flex items-center gap-1" >detsils</Link>
           </div>
         </div>
       </div>

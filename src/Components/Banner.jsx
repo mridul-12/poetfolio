@@ -20,7 +20,7 @@ const Banner = () => {
       <div className=" text-neutral-content text-center lg:flex items-center justify-between">
       <div className="max-w-screen-md">
         <div className="">
-        <h1 className="mb-5 md:text-4xl text-2xl lg:text-5xl font-bold text-red-600">
+        <h1 className="mb-5 md:text-4xl text-2xl lg:text-5xl font-bold  bg-gradient-to-r from-orange-700 via-red-500 to-green-400 text-transparent bg-clip-text animate-gradient">
             {" "}
             <Typewriter
               words={["Hey, I'm MRIDUL."]}
@@ -34,7 +34,7 @@ const Banner = () => {
           </h1>
        
 
-          <p className="mb-5 text-left font-semibold wfu lg:text-xl text-xs">
+          <p className="mb-5 text-left font-semibold wfu lg:text-xl text-xs text-[#24C06A]">
             I am currently pursuing a Diploma in Engineering at Moulvibazar
             Polytechnic Institute, specializing in Computer Science and
             Technology (CST). My academic journey has provided me with a strong
@@ -43,13 +43,13 @@ const Banner = () => {
           <div className=" flex gap-2 items-center w-full   ">
             <Link
               to={"/contact"}
-              className="btn btn-secondary hover:bg-purple-700 flex items-center"
+              className="bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-red-500 text-white font-bold py-2 px-4 rounded flex items-center gap-1 "
             >
               <IoCallSharp></IoCallSharp> Contact
             </Link>
             <Link
               to={"/about"}
-              className="btn btn-secondary hover:bg-purple-700 "
+              className="bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-red-500 text-white font-bold py-2 px-4 rounded flex items-center gap-1  "
             >
                 <FaHandsBound></FaHandsBound>
               About

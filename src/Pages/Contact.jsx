@@ -12,26 +12,25 @@ import { useEffect } from "react";
 const Contact = () => {
   useEffect(() => {
     Aos.init();
+    emailjs.init("HmRS7FQ6bDFpsD8dX"); 
   }, []);
+  
   const sendEmail = (e) => {
     e.preventDefault();
-    // console.log(e);
-    toast.success("Your email success.please wait...");
+    toast.success("Your email is being sent. Please wait...");
     emailjs
-      .sendForm("service_yru17js", "template_nyks5rn", e.target, {
-        publicKey: "2b2B_BGbD2AcorFhr",
-      })
+      .sendForm("service_yru17js", "template_j1ccmtq", e.target)
       .then(
         () => {
-          // console.log("Message successfully");
+          toast.success("Message sent successfully!");
         },
         (error) => {
-          toast.error("FAILED...", error.text);
-          // console.log("FAILED...", error.text);
+          toast.error(`Failed to send message: ${error.text}`);
         }
       );
     e.target.reset();
   };
+  
 
   return (
     <div className=" " data-aos="fade-up" data-aos-duration="3000">
@@ -48,7 +47,7 @@ const Contact = () => {
             <p className="flex items-center   lg:text-xl text-xs">
               <MdOutlineEmail></MdOutlineEmail>email:{" "}
               <a
-                href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnZnPXBQlhpDrpZbSqrsmxJlXSQvsKJKlvnPDWNSHcqJtPMwhhZlPnNCsWVPFhPhLNdnLv"
+                href=""
                 target="_blank"
                 className="hover:link-hover hover:text-blue-500 "
               >
@@ -73,14 +72,14 @@ const Contact = () => {
             <nav>
               <div className="grid grid-cols-3 my-4">
                 <a
-                  href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGonzb4vjmpzwAAAZCGNetYaTBkmPmP3jwbyu15qSZsZVSa01c5lbIg6a22QjHL8Mf9sDcVq7rvWtCOZsF0One3ecf7WwC9NYgSj07FJv4AXXmn3LI444T7zHLq47D4Huetwe4=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmd-nayeem-miah-734719307"
+                  href="https://www.instagram.com/mridh1561/?igsh=MTRpaWlnbjJqMHBhcA%3D%3D"
                   target="blank"
                 >
                   <FaInstagram className="text-4xl bg-instagram-gradient"></FaInstagram>
                   Instragram
                 </a>
                 <a
-                  href="https://www.facebook.com/profile.php?id=100042968569904"
+                  href="https://www.facebook.com/people/Mri-Du-L/100081711587660/?mibextid=ZbWKwL"
                   target="blank"
                 >
                   <FaFacebookF className="text-4xl text-blue-600"></FaFacebookF>
@@ -92,7 +91,7 @@ const Contact = () => {
         </div>
         <div className="py-5">
           <section className="max-w-4xl p-6 mx-auto bg-[#2f2f2f] rounded-md shadow-md">
-            <h2 className="text-2xl font-semibold text-gray-700 capitalize dark:text-black">
+            <h2 className="text-2xl   capitalize  font-bold bg-gradient-to-r from-orange-700 via-green-500 to-red-400 text-transparent bg-clip-text animate-gradient">
               Let’s Message me !
             </h2>
 

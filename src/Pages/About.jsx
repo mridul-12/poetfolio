@@ -81,7 +81,7 @@ const About = () => {
             </div>
             <div className="">
               <h4 className="font-bold">Date of birth:</h4>
-              <p className=""> 10 Octobor 2004</p>
+              <p className=""> 10 February 2005</p>
             </div>
             <div className="">
               <h4 className="font-bold">From:</h4>
